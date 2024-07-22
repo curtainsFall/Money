@@ -1,0 +1,48 @@
+---
+en:
+  transactions:
+    bulk_delete:
+      success: "已删除 %{count} 交易"
+    bulk_edit:
+      cancel: 取消
+      category_label: 类别
+      category_placeholder: 选择类别
+      date_label: 日期
+      details: 详细信息
+      merchant_label: 商户
+      merchant_placeholder: 选择商户
+      note_label: 备注
+      note_placeholder: 输入适用于所选交易的备注
+      overview: 概述
+      save: 保存
+    bulk_update:
+      success: "已更新 %{count} 交易"
+    create:
+      success: 成功创建新交易
+    form:
+      account: 账户
+      account_prompt: 选择账户
+      amount: 金额
+      category: 类别
+      category_prompt: 选择类别
+      date: 日期
+      description: 详细信息
+      description_placeholder: 描述交易
+      expense: 支出
+      income: 收入
+      submit: 添加交易
+      transfer: 迁移
+    header:
+      edit_categories: 编辑类别
+      edit_imports: 编辑导入
+      import: 导入
+    index:
+      transaction: 交易
+    mark_transfers:
+      success: 标记为转账
+    new:
+      new_transaction: 新交易
+    pagination:
+      rows_per_page: 每页行数
+    unmark_transfers:
+      success: 移除转账
