@@ -1,0 +1,15 @@
+---
+en:
+  activerecord:
+    attributes:
+      user:
+        email: 邮箱
+        family: 家庭
+        family_id: 家庭ID
+        first_name: 名字
+        last_name: 姓氏
+        password: 密码
+        password_confirmation: 确认密码
+    errors:
+      user:
+        cannot_deactivate_admin_with_other_users: 管理员名下存在在其他用户时无法删除账户。请先删除所有成员。
