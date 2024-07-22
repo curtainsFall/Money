@@ -2,4 +2,4 @@
 en:
   account:
     transfer:
-      name: 从账户 %{from_account} 迁移到账户 %{to_account}
+      name: 从账户 %{from_account} 转账到账户 %{to_account}
