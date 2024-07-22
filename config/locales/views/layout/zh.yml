@@ -2,7 +2,7 @@
 en:
   layouts:
     auth:
-      or: or
+      or: 或
       privacy_policy: 隐私政策
       sign_in: 已注册账号登录
       sign_up: 注册账号
