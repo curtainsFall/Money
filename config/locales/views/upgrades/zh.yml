@@ -1,0 +1,10 @@
+---
+en:
+  upgrades:
+    acknowledge:
+      upgrade_complete_dismiss: 希望您喜欢这些新功能！
+      upgrade_dismissed: 升级被驳回
+      upgrade_not_available: 无法升级
+      upgrade_not_found: 未找到升级
+    deploy:
+      upgrade_not_found: 未找到升级
