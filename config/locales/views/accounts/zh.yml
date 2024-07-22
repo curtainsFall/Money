@@ -1,0 +1,66 @@
+---
+en:
+  accounts:
+    create:
+      success: 成功创建新账户
+    destroy:
+      success: 账户已成功删除
+    edit:
+      balance: 余额
+      edit: 编辑账户 %{account}
+      institution: 金融机构
+      name: 名称
+      ungrouped: "(无)"
+    empty:
+      empty_message: 通过连接、导入或手动输入添加账户。
+      new_account: 新账户
+      no_accounts: 尚无账户
+    header:
+      accounts: 账户
+      manage: 管理账户
+      new: 新账户
+    index:
+      accounts: 账户
+      add_institution: 添加机构
+      new_account: 新账户
+    institution_accounts:
+      add_account_to_institution: 添加新账户
+      confirm_accept: 删除机构
+      confirm_body: 别担心，该机构内的所有账户都不会受到此次删除的影响。账户将被取消分组，所有历史数据将保持不变。
+      confirm_title: 删除金融机构？
+      delete: 删除机构
+      edit: 编辑机构
+      new_account: 添加账户
+    institutionless_accounts:
+      other_accounts: 其他账户
+    new:
+      balance: 当前余额
+      institution: 金融机构
+      name:
+        label: 账户名称
+        placeholder: 账户名称示例
+      optional_start_balance_message: 为该账户添加起始余额
+      select_accountable_type: 您想添加什么？
+      start_balance: 起始余额（可选）
+      start_date: 开始日期（可选）
+      title: 添加账户
+      ungrouped: "(无)"
+    show:
+      confirm_accept: 删除 "%{name}"
+      confirm_body_html: "<p>删除该账户后，您将删除其价值历史记录，从而影响整个账户的各个方面。这一操作将直接影响您的净值计算和账户图表。</p><br
+        /> <p>删除后，您将无法恢复账户信息，因为您需要将其添加为一个新账户。</p>"
+      confirm_title: 删除账户？
+      edit: 编辑
+      import: 导入交易
+      no_change: 无变化
+      sync_message_missing_rates: 由于汇率尚未同步，余额图表可能无法反映准确的数值。
+      sync_message_unknown_error: 同步过程中发生错误。
+      total_value: 总价值
+      transactions: 交易
+      value: 价值
+    summary:
+      new: 新账户
+    sync_all:
+      success: 成功同步账户。
+    update:
+      success: 账户已更新
