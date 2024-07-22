@@ -1,0 +1,13 @@
+---
+en:
+  upgrader:
+    deployer:
+      null_deployer:
+        success_message: '无操作：空部署器成功启动部署'
+      render:
+        deploy_log_error: '将 %{type} %{commit_sha} 部署到 Render 失败： %{error_message}'
+        deploy_log_info: 将 %{type} %{commit_sha} 部署到 Render...
+        error_message_failed_deploy: 部署到Render失败
+        error_message_not_set: 未设置Render部署钩子 URL
+        success_message: '为提交触发了部署到 Render：%{commit_sha}。'
+        troubleshooting_url: https://render.com/docs/deploy-hooks
