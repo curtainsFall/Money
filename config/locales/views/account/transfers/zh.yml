@@ -1,0 +1,26 @@
+---
+en:
+  account:
+    transfers:
+      create:
+        success: 转账已记录
+      destroy:
+        success: 转账已删除
+      form:
+        amount: 金额
+        date: 日期
+        description: 详情
+        description_placeholder: 从活期转入储蓄
+        expense: 支出
+        from: 从
+        income: 收入
+        select_account: 选择账户
+        submit: 创建转账
+        to: 到
+        transfer: 转账
+      new:
+        title: 新的转账
+      transfer:
+        remove_body: 这不会删除相关交易。  它只会删除转账。
+        remove_confirm: 确认
+        remove_title: 删除转账？
