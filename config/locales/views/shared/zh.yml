@@ -1,0 +1,19 @@
+---
+en:
+  shared:
+    confirm_modal:
+      accept: 确认
+      body_html: "<p>您将无法撤销这一决定</p>"
+      cancel: 取消
+      title: 你确定吗？
+    money_field:
+      money-label: 金额
+    no_account_empty_state:
+      new_account: 新账户
+      no_account_subtitle: 添加第一个账户后，就可以开始查看仪表盘数据了。
+      no_account_title: 尚无账户
+    upgrade_notification:
+      app_upgraded: 应用程序已升级至 %{version}。
+      dismiss: 忽略
+      new_version_available: 新版程序可供升级。
+      upgrade_now: 立即升级
