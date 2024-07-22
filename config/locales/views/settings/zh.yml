@@ -1,0 +1,107 @@
+---
+en:
+  settings:
+    hostings:
+      send_test_email:
+        error: '配置错误：无法发送测试电子邮件'
+        missing_smtp_setting_error: 确保填写了所有 smtp 设置
+        success: 测试电子邮件已成功发送
+      show:
+        domain: 应用程序域
+        domain_placeholder: mydomain.com
+        email_sender: 电子邮件发送人
+        email_sender_placeholder: user@mydomain.com
+        general_settings_title: 常规设置
+        page_title: 自助托管
+        provider_settings:
+          title: 提供商设置
+        render_deploy_hook_description: 输入 Render 提供的部署钩子 URL
+        render_deploy_hook_label: Render部署钩子 URL
+        render_deploy_hook_placeholder: https://api.render.com/deploy/srv-xyz...
+        smtp_settings:
+          description: 为通知和警报配置外发邮件服务器设置
+          host: SMTP 主机
+          host_placeholder: smtp.gmail.com
+          password: 密码
+          password_placeholder: "*******"
+          port: 端口
+          port_placeholder: 587
+          send_test_email: 发送测试电子邮件
+          send_test_email_button: 发送测试电子邮件
+          send_test_email_description: 通过发送测试电子邮件验证 SMTP 设置
+          title: SMTP 电子邮件配置
+          username: 用户邮箱
+          username_placeholder: username@gmail.com
+        upgrades:
+          description: 选择应用程序接收更新的方式
+          latest_commit:
+            description: 自动更新至最新提交（不稳定版）
+            title: 最新提交版
+          latest_release:
+            description: 自动更新到最新版本（稳定版）
+            title: 最新发布版
+          manual:
+            description: 您可以控制下载和安装更新的时间
+            title: 手动升级
+          title: 自动升级
+      update:
+        render_deploy_hook_error: 必须提供Render部署钩子才能启用自动升级
+        success: 设置更新成功。
+    nav:
+      accounts_label: 账户
+      billing_label: 账单
+      categories_label: 类别
+      feedback_label: 反馈
+      general_section_title: 常规设置
+      imports_label: 导入
+      invite_label: 邀请朋友
+      merchants_label: 商户
+      notifications_label: 通知
+      other_section_title: 更多
+      preferences_label: 偏好设置
+      profile_label: 账户
+      rules_label: 规则
+      security_label: 安全
+      self_hosting_label: 自助托管
+      tags_label: 标签
+      transactions_section_title: 交易
+      whats_new_label: 最新更新
+    nav_link_large:
+      next: 下一页
+      previous: 返回
+    preferences:
+      show:
+        general_subtitle: 配置您的首选项
+        general_title: 常规设置
+        page_title: 偏好设置
+        theme_dark: 暗黑
+        theme_light: 明亮
+        theme_subtitle: 为应用程序选择喜欢的主题（即将推出...）
+        theme_system: 跟随系统
+        theme_title: 主题
+      update:
+        success: 首选项更新成功。
+    profiles:
+      destroy:
+        success: 账户已成功删除。
+      show:
+        add_member: 添加成员
+        confirm_delete:
+          body: 您确定要永久删除您的账户吗？此操作不可逆转。
+          title: 删除账户？
+        danger_zone_title: 谨慎操作
+        delete_account: 删除账户
+        delete_account_warning: 删除账户将永久删除您的所有数据，且无法撤销。
+        household_form_input_placeholder: 输入家庭名
+        household_form_label: 家庭名
+        household_subtitle: 邀请家庭成员、伴侣和其他个人。  受邀者可以登录您的家庭，访问您的共享账户。
+        household_title: 家庭
+        page_title: 账户
+        profile_image_choose: 选择
+        profile_image_type: JPG、GIF 或 PNG，最大 5MB。
+        profile_subtitle: 自定义您在该程序上的显示方式
+        profile_title: 资料
+        save: 保存
+      update:
+        file_size_error: 文件大小必须小于 5MB
+        success: 资料更新成功。
