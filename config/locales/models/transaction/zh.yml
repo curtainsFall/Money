@@ -1,0 +1,12 @@
+---
+en:
+  transaction:
+    default_category:
+      auto_and_transport: 交通出行
+      entertainment: 休闲娱乐
+      food_and_drink: 食品饮料
+      general_services: 日常开销
+      home_improvement: 家居家装
+      income: 收入
+      personal_care: 个人护理
+      rent_and_utilities: 住房物业
