@@ -1,0 +1,16 @@
+---
+en:
+  layouts:
+    auth:
+      or: or
+      privacy_policy: 隐私政策
+      sign_in: 已注册账号登录
+      sign_up: 注册账号
+      terms_of_service: 服务条款
+      your_account: 您的账号
+    sidebar:
+      accounts: 账户
+      dashboard: 仪表板
+      new_account: 新账户
+      portfolio: 资产概览
+      transactions: 交易
