@@ -3,76 +3,69 @@ en:
   account:
     entries:
       create:
-        success: "%{name} created"
+        success: "账户%{name} 创建成功"
       destroy:
-        success: Entry deleted
+        success: 记录已删除
       empty:
-        description: Try adding an entry, editing filters or refining your search
-        title: No entries found
+        description: 尝试添加记录、编辑筛选器或改进搜索结果
+        title: 未找到记录
       entryables:
         transaction:
           show:
-            account_label: Account
-            account_placeholder: Select an account
-            additional: Additional
-            amount: Amount
-            category_label: Category
-            category_placeholder: Select a category
-            date_label: Date
-            delete: Delete
-            delete_subtitle: This permanently deletes the transaction, affects your
-              historical balances, and cannot be undone.
-            delete_title: Delete transaction
-            exclude_subtitle: This excludes the transaction from any in-app features
-              or analytics.
-            exclude_title: Exclude transaction
-            merchant_label: Merchant
-            merchant_placeholder: Select a merchant
-            name_label: Name
-            nature: Transaction type
-            note_label: Notes
-            note_placeholder: Enter a note
-            overview: Overview
-            settings: Settings
-            tags_label: Select one or more tags
+            account_label: 账户
+            account_placeholder: 选择账户
+            additional: 附加
+            amount: 金额
+            category_label: 类别
+            category_placeholder: 选择类别
+            date_label: 日期
+            delete: 删除
+            delete_subtitle: 这将永久删除交易，影响历史余额，且无法撤销。
+            delete_title: 删除交易
+            exclude_subtitle: 这将使交易排除在任何应用内功能或分析之外。
+            exclude_title: 排除交易
+            merchant_label: 商户
+            merchant_placeholder: 选择商户
+            name_label: 名称
+            nature: 交易类型
+            note_label: 备注
+            note_placeholder: 输入备注
+            overview: 概览
+            settings: 设置
+            tags_label: 选择一个或多个标签
           transaction:
-            remove_transfer: Remove transfer
-            remove_transfer_body: This will remove the transfer from this transaction
-            remove_transfer_confirm: Confirm
+            remove_transfer: 删除转账
+            remove_transfer_body: 这将从该交易中删除转账
+            remove_transfer_confirm: 确认
         valuation:
           form:
-            cancel: Cancel
+            cancel: 取消
           valuation:
-            confirm_accept: Delete entry
-            confirm_body_html: "<p>Deleting this entry will remove it from the account’s
-              history which will impact different parts of your account. This includes
-              the net worth and account graphs.</p></br><p>The only way you’ll be
-              able to add this entry back is by re-entering it manually via a new
-              entry</p>"
-            confirm_title: Delete Entry?
-            delete_entry: Delete entry
-            edit_entry: Edit entry
-            no_change: No change
-            start_balance: Starting balance
-            value_update: Value update
+            confirm_accept: 删除条目
+            confirm_body_html: "<p>删除此条目将从账户历史中删除，这将影响账户的不同部分。这包括净值和账户图表。</p></br><p>要将该条目添加回去，唯一的方法是通过新条目手动重新输入</p>"
+            confirm_title: 删除条目？
+            delete_entry: 删除条目
+            edit_entry: 编辑条目
+            no_change: 无变化
+            start_balance: 起始余额
+            value_update: 净值更新
       loading:
-        loading: Loading entries...
+        loading: 正在加载条目...
       selection_bar:
-        mark_transfers: Mark as transfers?
-        mark_transfers_confirm: Mark as transfers
-        mark_transfers_message: By marking transactions as transfers, they will no
-          longer be included in income or spending calculations.
+        mark_transfers: 标记为转账？
+        mark_transfers_confirm: 标记为转账
+        mark_transfers_message: 将交易标记为转账后，这些交易将不再计入收入或支出计算。
       transactions:
-        new: New transaction
-        no_transactions: No transactions for this account yet.
-        transaction: transaction
-        transactions: Transactions
+        new: 新交易
+        no_transactions: 该账户尚无交易。
+        transaction: 交易
+        transactions: 交易
       update:
-        success: Entry updated
+        success: 条目更新
       valuations:
-        change: change
-        date: date
-        new_entry: New entry
-        no_valuations: No valuations for this account yet
-        valuations: Value history
-        value: value
+        change: 变化
+        date: 日期
+        new_entry: 新条目
+        no_valuations: 尚未对该账户进行估值
+        valuations: 估值历史
+        value: 价值
