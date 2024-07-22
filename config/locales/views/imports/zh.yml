@@ -1,0 +1,95 @@
+---
+en:
+  imports:
+    clean:
+      clean_and_edit: 清理和编辑数据
+      clean_description: 编辑下表中的交易。单击任何单元格可更改日期、名称、类别或金额。
+      clean_import: 清理导入
+      invalid_csv: 请先加载CSV文件
+    configure:
+      configure_description: 选择与必要数据字段相匹配的列，以便 CSV 中的列与我们的格式正确映射。
+      configure_subtitle: 设置 CSV 文件
+      configure_title: 配置导入
+      confirm_accept: 更改映射
+      confirm_body: 更改映射可能会删除您迄今为止对 CSV 所做的任何编辑。
+      confirm_title: 你确定吗？
+      invalid_csv: 请先加载 CSV文件
+      next: 下一步
+      optional: "(可选） 未选择栏目"
+    confirm:
+      confirm_description: 在下面预览您的交易，并检查是否有任何需要更改的地方。
+      confirm_subtitle: 确认您的交易
+      confirm_title: 确认导入
+      invalid_data: 您的数据无效，请修复后再继续
+    create:
+      import_created: 创建的导入
+    csv_paste:
+      confirm_accept: 是的，重新开始！
+      confirm_body: 这将重置您的导入。您对 CSV 所做的任何更改都将被删除。
+      confirm_title: 你确定吗？
+      instructions: 为获得最佳导入体验，您的 CSV 应包含以下列和格式。
+      next: 下一步
+      requirement1: 日期必须使用 ISO 8601 格式（YYYY-MM-DD）
+      requirement2: 负数交易为 "流出"（支出），正数为 "流入"（收入）
+      requirement3: 可以有 0 个或多个用 | 分隔的标记
+    csv_upload:
+      confirm_accept: 是的，重新开始！
+      confirm_body: 这将重置您的导入。您对 CSV 所做的任何更改都将被删除。
+      confirm_title: 你确定吗？
+      instructions: csv 文件必须符合以下格式。您也可以重复使用和
+      next: 下一步
+    destroy:
+      import_destroyed: 导入撤销
+    edit:
+      description_text: 一次只能为一个账户导入交易。如果要导入其他账户，则需要再次进行此操作。
+      edit_title: 编辑导入
+      header_text: 选择交易所属账户
+    empty:
+      message: 导入数据为空
+      new: 新的导入
+    form:
+      account: 账户
+      next: 下一步
+      select_account: 选择账户
+    import:
+      complete: 导入完成
+      completed_on: 于 %{datetime} 完成
+      delete: 删除
+      edit: 编辑
+      failed: 导入失败
+      in_progress: 导入中
+      label: '导入：%{account}'
+      started_on: 开始于 %{datetime} 
+      uploading: 处理行
+    index:
+      imports: 导入
+      new: 新的导入
+      title: 导入
+    load:
+      description: 创建电子表格或从金融机构上传导出的 CSV。
+      load_title: 加载导入
+      subtitle: 导入您的交易
+    load_csv:
+      import_loaded: 载入 CSV
+    new:
+      description_text: 一次只能为一个账户导入交易。如果要导入其他账户，则需要再次进行此操作。
+      header_text: 选择交易所属账户
+    publish:
+      import_published: 已在后台开始导入
+      invalid_data: 您的导入无效
+    type_selector:
+      description: 你可以从 CSV 或其他财务 app（如 Mint、Empower（前身为 Personal Capital）或 Apple Card）手动导入交易。
+      import_from_apple: 从 Apple Card导入
+      import_from_csv: 从 CSV 新导入
+      import_from_empower: 从 Empower 导入
+      import_from_mint: 从 Mint 导入
+      import_transactions: 导入交易
+      resume_latest_import: 恢复最新输入
+      soon: 很快
+      sources: 资料来源
+    update:
+      import_updated: 导入已更新
+    update_mappings:
+      column_mappings_saved: 已保存列映射
+    upload_csv:
+      import_loaded: 已加载 CSV 文件
