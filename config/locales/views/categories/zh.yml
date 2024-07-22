@@ -1,0 +1,22 @@
+---
+en:
+  categories:
+    create:
+      success: 成功创建新交易类别
+    edit:
+      edit: 编辑类别
+    form:
+      create: 创建类别
+      update: 更新类别
+    index:
+      categories: 类别
+      new: 新类别
+    menu:
+      loading: 正在加载...
+    new:
+      new_category: 新类别
+    row:
+      delete: 删除类别
+      edit: 编辑类别
+    update:
+      success: 交易类别更新成功
