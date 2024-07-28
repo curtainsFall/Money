@@ -1,5 +1,5 @@
 class Account::EntriesController < ApplicationController
-  layout "with_sidebar"
+  layout :with_sidebar
 
   before_action :set_account
   before_action :set_entry, only: %i[ edit update show destroy ]
@@ -10,6 +10,10 @@ class Account::EntriesController < ApplicationController
 
   def valuations
     @valuation_entries = @account.entries.account_valuations.reverse_chronological
+  end
+
+  def trades
+    @trades = @account.entries.account_trades.reverse_chronological
   end
 
   def new
